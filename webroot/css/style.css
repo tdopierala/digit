@@ -1,0 +1,35 @@
+body {
+    font-size: 14px;
+}
+
+.feedbox .feedimg { 
+    width: 100%; 
+    /* height: 66.66%; */ 
+    /* overflow: hidden; */ }
+
+.feedbox .feedimg img { 
+    width: 100%;
+    /* height: 66.66%; */
+    border: 1px solid #1c1c1c;
+    background-repeat: no-repeat;
+    background-size: 100% auto; 
+    background-position: center; 
+    /* display: block; margin: 0 auto; */ 
+}
+
+body.night {
+    background-color: #1c1c1c;
+    color: #cacecf;
+}
+
+.night .header { background-color: #2c2c2c; }
+
+.night .feedbox { background-color: #2c2c2c; margin: 10px 0; padding: 10px 0; }
+.night .feedtitle a { color: #cdd9e2; }
+.night .feedtitle a:visited { color: #777777; }
+.night .pagination .btn { font-size: 12px; font-weight: bold; width: 40px; }
+.night .pagination .btn-pagin { color: #cdd9e2; background-color: #2c2c2c; border-color: #2c2c2c; }
+.night .pagination .btn-selected { color: #cdd9e2; background-color: #202020; border-color: #202020; }
+.night .pagination .btn-pagin:hover { background-color: #202020; border-color: #202020; }
+
+.night pre { border: 1px solid #cacecf;  color: #cacecf; }
