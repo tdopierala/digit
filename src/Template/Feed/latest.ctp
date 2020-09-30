@@ -40,11 +40,11 @@
                     <div class="feedimg d-none d-lg-block">
                         <?= $this->Html->link(
                             $this->Html->image(
-                                'http://' . $_SERVER['HTTP_HOST'] . '/php-feed-scanner/images/thumb/' . $f['Feed__ds_image_local'], 
+                                'http://' . $_SERVER['HTTP_HOST'] . '/assets/thumb/' . $f['Feed__ds_image_local'], 
                                 [
                                     //'alt' => $f['Feed__ds_title'], 
                                     'class' => 'img-fluid',
-                                    //'style' => 'background-image: url(\''. '/php-feed-scanner/images/thumb/' . $f['Feed__ds_image_local'] .'\');'
+                                    //'style' => 'background-image: url(\''. '/assets/thumb/' . $f['Feed__ds_image_local'] .'\');'
                                 ]),
                             
                             "/link/" . $f['Feed__ds_hash'] . "/" . $this->Link->urlEncode($f['Feed__ds_title']),
@@ -58,7 +58,7 @@
                     <div class="feedimg d-lg-none">
                         <?= $this->Html->link(
                             $this->Html->image(
-                                'http://' . $_SERVER['HTTP_HOST'] . '/php-feed-scanner/images/normal/' . $f['Feed__ds_image_local'], 
+                                'http://' . $_SERVER['HTTP_HOST'] . '/assets/normal/' . $f['Feed__ds_image_local'], 
                                 [
                                     //'alt' => $f['Feed__ds_title'], 
                                     'class' => 'img-fluid',
